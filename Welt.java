@@ -33,7 +33,6 @@ public class Welt {
 		int width=(int)d.getWidth();
 		int height=(int)d.getHeight();
 		fische= new Fisch[width][height];
-		jaeger= new Jaeger[width][height];
 		w=width;
 		h=height;
 	}
@@ -55,7 +54,7 @@ public class Welt {
 		//in present schauen wo ich hinschwimme
 		//diesen neuen zustand in zukunft speichern
 
-		//schaue mir von den nachbarfischen nur die pos an und vernachl‰ssige deren schwimmrichtung
+		//schaue mir von den nachbarfischen nur die pos an und vernachl√§ssige deren schwimmrichtung
 		//fische haben rundumblick
 		LinkedList<Integer> xKoo=new LinkedList<Integer>();
 		LinkedList<Integer> yKoo=new LinkedList<Integer>();
